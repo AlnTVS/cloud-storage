@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cd302b7b-177e-4975-9875-62844d93b671" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-client/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-common/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-server/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cloud-server/src/main/java/com/geekbrains/student/cloud/storage/server/MyProtoServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="19" column="70" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1086#1087#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-common/src/main/java/com/geekbrains/student/cloud/storage/common/MyProtoCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-client/src/main/resources/main.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="914" column="18" selection-start-line="914" selection-start-column="18" selection-end-line="914" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-server/src/main/java/com/geekbrains/student/cloud/storage/server/AuthBlock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1208#1209#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-client/src/main/java/com/geekbrains/student/cloud/storage/client/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="48" column="20" lean-forward="true" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-client/src/main/java/com/geekbrains/student/cloud/storage/client/Network.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-client/src/main/java/com/geekbrains/student/cloud/storage/client/FilesWorkFlow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-common/src/main/java/com/geekbrains/student/cloud/storage/common/MyProtoRespond.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-common/src/main/java/com/geekbrains/student/cloud/storage/common/MyProtoClientHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="424">
+              <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/cloud-client/src/main/java/com/geekbrains/student/cloud/storage/client.java" />
+        <option value="$PROJECT_DIR$/cloud-client/src/main/java/com/geekbrains/student/cloud/storage/MainApp.java" />
+        <option value="$PROJECT_DIR$/cloud-client/src/main/java/com/geekbrains/student/cloud/storage/client/MainApp.java" />
+        <option value="$PROJECT_DIR$/cloud-client/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-common/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-client/src/main/java/com/geekbrains/student/cloud/storage/client/Controller.java" />
+        <option value="$PROJECT_DIR$/cloud-client/src/main/java/com/geekbrains/student/cloud/storage/client/Main.java" />
+        <option value="$PROJECT_DIR$/cloud-client/src/main/resources/main.fxml" />
+        <option value="$PROJECT_DIR$/cloud-server/src/main/java/com/geekbrains/student/cloud/storage/server/AuthService.java" />
+        <option value="$PROJECT_DIR$/cloud-server/src/main/java/com/geekbrains/student/cloud/storage/server/ClientHandler.java" />
+        <option value="$PROJECT_DIR$/cloud-server/src/main/java/com/geekbrains/student/cloud/storage/server/MainApp.java" />
+        <option value="$PROJECT_DIR$/cloud-server/src/main/java/com/geekbrains/student/cloud/storage/server/DatabaseAuthService.java" />
+        <option value="$PROJECT_DIR$/cloud-server/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-server/src/main/java/com/geekbrains/student/cloud/storage/server/Server.java" />
+        <option value="$PROJECT_DIR$/cloud-server/src/main/java/com/geekbrains/student/cloud/storage/server/MyProtoAuthClientHandler.java" />
+        <option value="$PROJECT_DIR$/ClientsFiles/1234.txt" />
+        <option value="$PROJECT_DIR$/cloud-client/src/main/java/com/geekbrains/student/cloud/storage/client/FilesWorkFlow.java" />
+        <option value="$PROJECT_DIR$/cloud-server/src/main/java/com/geekbrains/student/cloud/storage/server/MyProtoClientHandler.java" />
+        <option value="$PROJECT_DIR$/cloud-server/src/main/java/com/geekbrains/student/cloud/storage/server/MyProtoAuth.java" />
+        <option value="$PROJECT_DIR$/cloud-server/src/main/java/com/geekbrains/student/cloud/storage/server/MyProtoCommand.java" />
+        <option value="$PROJECT_DIR$/cloud-common/src/main/java/com/geekbrains/student/cloud/storage/common/MyTest.java" />
+        <option value="$PROJECT_DIR$/cloud-common/src/main/java/com/geekbrains/student/cloud/storage/common/MyProtoRespond.java" />
+        <option value="$PROJECT_DIR$/cloud-common/src/main/java/com/geekbrains/student/cloud/storage/common/MyProtoClientHandler.java" />
+        <option value="$PROJECT_DIR$/cloud-common/src/main/java/com/geekbrains/student/cloud/storage/common/MyProtoCommand.java" />
+        <option value="$PROJECT_DIR$/cloud-server/src/main/java/com/geekbrains/student/cloud/storage/server/AuthBlock.java" />
+        <option value="$PROJECT_DIR$/cloud-client/src/main/java/com/geekbrains/student/cloud/storage/client/Network.java" />
+        <option value="$PROJECT_DIR$/cloud-server/src/main/java/com/geekbrains/student/cloud/storage/server/MyProtoServer.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cloud-client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="485" />
+    <option name="y" value="130" />
+    <option name="width" value="1430" />
+    <option name="height" value="915" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cloud-storage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-storage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-storage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-storage" type="462c0819:PsiDirectoryNode" />
+              <item name="ClientsFiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-storage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-storage" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-storage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-storage" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-storage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-storage" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-storage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-storage" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-storage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-storage" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-storage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-storage" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-storage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-storage" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-storage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-storage" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-storage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-storage" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-storage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-storage" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-storage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-storage" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-storage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-storage" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-storage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-storage" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-storage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-storage" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-storage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-storage" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-storage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-storage" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-storage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584605067968" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../netty-servers" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GeekBrains\Workspace\cloud-storage\cloud-common\src\main\java\com\geekbrains\student\cloud\storage\common" />
+      <recent name="C:\GeekBrains\Workspace\cloud-storage\cloud-client\src\main\resources" />
+      <recent name="C:\GeekBrains\Workspace\cloud-storage\cloud-client\src\main\java\com\geekbrains\student\cloud\storage\client" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.geekbrains.student.cloud.storage.server" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.geekbrains.student.cloud.storage.server" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MyProtoServer">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.student.cloud.storage.client.Main" />
+      <module name="cloud-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geekbrains.student.cloud.storage.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.student.cloud.storage.server.MainApp" />
+      <module name="cloud-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geekbrains.student.cloud.storage.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyProtoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.student.cloud.storage.server.MyProtoServer" />
+      <module name="cloud-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geekbrains.student.cloud.storage.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.student.cloud.storage.common.MyTest" />
+      <module name="cloud-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geekbrains.student.cloud.storage.common.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MyProtoServer" />
+        <item itemvalue="Application.MyTest" />
+        <item itemvalue="Application.MainApp" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cd302b7b-177e-4975-9875-62844d93b671" name="Default Changelist" comment="" />
+      <created>1583586830088</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583586830088</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32719547" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32577905" />
+      <window_info anchor="bottom" id="Log Analyzer" order="11" />
+      <window_info anchor="bottom" id="SOQL Query" order="12" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="13" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32942432" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/cloud-client/src/main/java/com/geekbrains/student/cloud/storage/client/MainApp.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/javafx-src.zip!/javafx/stage/FileChooser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="87" column="19" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" selection-start-line="24" selection-end-line="28" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Long.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="392" column="25" selection-start-line="392" selection-start-column="25" selection-end-line="392" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Float.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12">
+          <caret line="581" selection-start-line="581" selection-end-line="581" />
+          <folding>
+            <element signature="e#22515#22516#0" expanded="true" />
+            <element signature="e#22550#22551#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-server/src/main/java/com/geekbrains/student/cloud/storage/server/MainApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding>
+            <element signature="e#120#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientsFiles/1234.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.42.Final/netty-all-4.1.42.Final.jar!/io/netty/channel/AbstractChannelHandlerContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="302" selection-start-line="302" selection-end-line="302" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.42.Final/netty-all-4.1.42.Final.jar!/io/netty/util/ReferenceCounted.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.42.Final/netty-all-4.1.42.Final.jar!/io/netty/buffer/ByteBuf.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="239" column="24" selection-start-line="239" selection-start-column="24" selection-end-line="239" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-server/src/main/java/com/geekbrains/student/cloud/storage/server/MyProtoClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-server/src/main/java/com/geekbrains/student/cloud/storage/server/MyProtoCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-client/src/main/java/com/geekbrains/student/cloud/storage/client/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding>
+            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-server/src/main/java/com/geekbrains/student/cloud/storage/server/AuthService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="72" selection-start-line="3" selection-start-column="72" selection-end-line="3" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-server/src/main/java/com/geekbrains/student/cloud/storage/server/ClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="914" column="18" selection-start-line="914" selection-start-column="18" selection-end-line="914" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/src/main/java/com/geekbrains/student/cloud/storage/common/MyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/src/main/java/com/geekbrains/student/cloud/storage/common/MyProtoCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/src/main/java/com/geekbrains/student/cloud/storage/common/MyProtoClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-server/src/main/java/com/geekbrains/student/cloud/storage/server/AuthBlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1208#1209#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-common/src/main/java/com/geekbrains/student/cloud/storage/common/MyProtoRespond.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-server/src/main/java/com/geekbrains/student/cloud/storage/server/DatabaseAuthService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-client/src/main/java/com/geekbrains/student/cloud/storage/client/FilesWorkFlow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-client/src/main/java/com/geekbrains/student/cloud/storage/client/Network.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-client/src/main/java/com/geekbrains/student/cloud/storage/client/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="48" column="20" lean-forward="true" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-client/src/main/resources/main.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-server/src/main/java/com/geekbrains/student/cloud/storage/server/MyProtoServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="19" column="70" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1086#1087#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>cloud-client</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
