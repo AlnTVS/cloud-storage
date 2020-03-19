@@ -1,62 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ListView?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
-<?import javafx.scene.control.MenuBar?>
-<?import javafx.scene.control.Menu?>
-<?import javafx.scene.control.MenuItem?>
 
-<VBox xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1"
-      fx:controller="com.geekbrains.student.cloud.storage.client.Controller">
-
-    <MenuBar>
-        <Menu text="File">
-            <MenuItem text="add File" onAction="#addFile"></MenuItem>
-        </Menu>
-    </MenuBar>
-    <HBox VBox.vgrow="ALWAYS">
-        <VBox HBox.hgrow="ALWAYS">
-            <Label text="Локальное хранилище" textAlignment="CENTER"/>
-            <HBox VBox.vgrow="ALWAYS">
-                <VBox HBox.hgrow="ALWAYS">
-                    <Label text="Имя файла"/>
-                    <ListView fx:id="clientsFilesName" VBox.vgrow="ALWAYS" onDragDetected="#setDragMove"></ListView>
-                </VBox>
-                <VBox HBox.hgrow="ALWAYS">
-                    <Label text="Размер файла"/>
-                    <ListView fx:id="clientsFilesSize" VBox.vgrow="ALWAYS">
-                    </ListView>
-                </VBox>
-            </HBox>
-            <HBox HBox.hgrow="ALWAYS">
-                <Button text="Отправить файл" HBox.hgrow="ALWAYS"/>
-                <Button text="Удалить файл" HBox.hgrow="ALWAYS"/>
-                <Button text="Обновить" HBox.hgrow="ALWAYS"/>
-            </HBox>
+<HBox xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.geekbrains.student.cloud.storage.client.Controller">
+    <VBox maxWidth="Infinity" HBox.hgrow="ALWAYS">
+        <HBox>
+            <Button maxWidth="Infinity" text="Добавить файл" HBox.hgrow="ALWAYS" />
+            <Button maxWidth="Infinity" text="Удалить файл" HBox.hgrow="ALWAYS" />
+            <Button maxWidth="Infinity" text="Отправить на сервер" HBox.hgrow="ALWAYS" />
+            <Button maxWidth="Infinity" text="Обновить список" HBox.hgrow="ALWAYS" onAction="#refreshFileList" />
+        </HBox>
+        <HBox maxHeight="Infinity" VBox.vgrow="ALWAYS">
+            <VBox maxWidth="Infinity" HBox.hgrow="ALWAYS">
+                <Label alignment="CENTER" maxWidth="Infinity" text="File name" />
+                <ListView fx:id="ClientFilesName" maxHeight="Infinity" maxWidth="Infinity" HBox.hgrow="ALWAYS" VBox.vgrow="ALWAYS" />
+            </VBox>
+            <VBox maxWidth="Infinity" HBox.hgrow="ALWAYS">
+                <Label alignment="CENTER" maxWidth="Infinity" text="File size" />
+                <ListView fx:id="ClientFilesSize" maxHeight="Infinity" maxWidth="Infinity" HBox.hgrow="ALWAYS" VBox.vgrow="ALWAYS" />
+            </VBox>
+        </HBox>
+      <HBox.margin>
+         <Insets right="15.0" />
+      </HBox.margin>
+    </VBox>
+    <VBox maxWidth="Infinity" HBox.hgrow="ALWAYS">
+    <HBox>
+        <Button maxWidth="Infinity" text="Удалить файл" HBox.hgrow="ALWAYS" />
+        <Button maxWidth="Infinity" text="Отправить на компьютер" HBox.hgrow="ALWAYS" />
+    </HBox>
+    <HBox maxHeight="Infinity" VBox.vgrow="ALWAYS">
+        <VBox maxWidth="Infinity" HBox.hgrow="ALWAYS">
+            <Label alignment="CENTER" maxWidth="Infinity" text="File name" />
+            <ListView fx:id="ServerFilesName" maxHeight="Infinity" maxWidth="Infinity" HBox.hgrow="ALWAYS" VBox.vgrow="ALWAYS" />
         </VBox>
-        <VBox HBox.hgrow="ALWAYS">
-            <Label text="Облачное хранилище" textAlignment="CENTER"/>
-            <HBox VBox.vgrow="ALWAYS">
-                <VBox HBox.hgrow="ALWAYS">
-                    <Label text="Имя файла"/>
-                    <ListView VBox.vgrow="ALWAYS">
-                    </ListView>
-                </VBox>
-                <VBox HBox.hgrow="ALWAYS">
-                    <Label text="Размер файла"/>
-                    <ListView VBox.vgrow="ALWAYS">
-                    </ListView>
-                </VBox>
-            </HBox>
-            <HBox>
-                <Button text="Отправить файл" HBox.hgrow="ALWAYS"/>
-                <Button text="Удалить файл" HBox.hgrow="ALWAYS"/>
-                <Button text="Обновить" HBox.hgrow="ALWAYS"/>
-            </HBox>
-
+        <VBox maxWidth="Infinity" HBox.hgrow="ALWAYS">
+            <Label alignment="CENTER" maxWidth="Infinity" text="File size" />
+            <ListView fx:id="ServerFilesSize" maxHeight="Infinity" maxWidth="Infinity" HBox.hgrow="ALWAYS" VBox.vgrow="ALWAYS" />
         </VBox>
     </HBox>
 </VBox>
+</HBox>
