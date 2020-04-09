@@ -11,6 +11,7 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
 
 public class MyProtoServer {
     public void run() throws Exception {
+        MyProtoClientHandler myBlock = new MyProtoClientHandler();
         EventLoopGroup bossGroup = new NioEventLoopGroup();
         EventLoopGroup workerGroup = new NioEventLoopGroup();
         try {
@@ -20,10 +21,7 @@ public class MyProtoServer {
                     .childHandler(new ChannelInitializer<SocketChannel>() { // (4)
                         @Override
                         public void initChannel(SocketChannel ch) throws Exception {
-                            ch.pipeline().addLast(  new MyProtoRespond(),
-                                                    new MyProtoClientHandler(),
-                                                    new AuthBlock(),
-                                                    new MyProtoCommand());
+                            ch.pipeline().addLast(myBlock);
                         }
                     });
             // .childOption(ChannelOption.SO_KEEPALIVE, true);

@@ -31,6 +31,7 @@
     </VBox>
     <VBox maxWidth="Infinity" HBox.hgrow="ALWAYS">
     <HBox>
+        <Button maxWidth="Infinity" text="Подключится к серверу" HBox.hgrow="ALWAYS" onAction="#connetToServer"></Button>
         <Button maxWidth="Infinity" text="Удалить файл" HBox.hgrow="ALWAYS" />
         <Button maxWidth="Infinity" text="Отправить на компьютер" HBox.hgrow="ALWAYS" />
     </HBox>
