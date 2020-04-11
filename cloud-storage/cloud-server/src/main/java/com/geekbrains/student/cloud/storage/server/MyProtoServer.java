@@ -2,6 +2,7 @@ package com.geekbrains.student.cloud.storage.server;
 
 import com.geekbrains.student.cloud.storage.common.*;
 import io.netty.bootstrap.ServerBootstrap;
+import io.netty.channel.Channel;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.EventLoopGroup;
@@ -9,9 +10,11 @@ import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 
+import java.net.Socket;
+
 public class MyProtoServer {
+    private AuthService authService = new AuthBD();
     public void run() throws Exception {
-        MyProtoClientHandler myBlock = new MyProtoClientHandler();
         EventLoopGroup bossGroup = new NioEventLoopGroup();
         EventLoopGroup workerGroup = new NioEventLoopGroup();
         try {
@@ -21,7 +24,9 @@ public class MyProtoServer {
                     .childHandler(new ChannelInitializer<SocketChannel>() { // (4)
                         @Override
                         public void initChannel(SocketChannel ch) throws Exception {
-                            ch.pipeline().addLast(myBlock);
+                            ch.pipeline().addLast(new MyProtoClientHandler());
+                            SNetwork sNetwork = new SNetwork(authService,ch);
+                            sNetwork.linkCallback();
                         }
                     });
             // .childOption(ChannelOption.SO_KEEPALIVE, true);

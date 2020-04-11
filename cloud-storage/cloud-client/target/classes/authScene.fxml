@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="authScene" alignment="CENTER" prefHeight="250" prefWidth="500" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.geekbrains.student.cloud.storage.client.AuthSceneController">
+    <Label text="Sign in" textAlignment="CENTER"><VBox.margin>
+        <Insets bottom="15.0" />
+    </VBox.margin>
+      <font>
+         <Font size="17.0" />
+      </font>
+      <effect>
+         <DropShadow color="#8a8a8a" height="5.0" offsetX="5.0" offsetY="3.0" radius="2.0" width="5.0" />
+      </effect></Label>
+    <TextField fx:id="login" alignment="CENTER" maxWidth="250" promptText="Login" onAction="#authRequest">  <VBox.margin>
+        <Insets bottom="15.0" />
+    </VBox.margin></TextField>
+
+    <PasswordField fx:id="password" alignment="CENTER" maxWidth="250" promptText="Password" onAction="#authRequest"/>
+</VBox>

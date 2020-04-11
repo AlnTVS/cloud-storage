@@ -58,4 +58,21 @@ public class Network {
     public void stop() {
         currentChannel.close();
     }
+
+    public void sendAuth(String login, String password) {
+        String msg = MyProtoClientHandler.cmdProto.REQUSET_AUTH.getCmdType() + login + " " + password;
+        System.out.println(msg);
+        MyProtoSender.sendCmd(msg,currentChannel,future -> {
+            if (!future.isSuccess()) {
+                future.cause().printStackTrace();
+//                Network.getInstance().stop();
+            }
+            if (future.isSuccess()) {
+                System.out.println("Запрос отправлен!");
+//                Network.getInstance().stop();
+            }
+        });
+    }
+
+
 }

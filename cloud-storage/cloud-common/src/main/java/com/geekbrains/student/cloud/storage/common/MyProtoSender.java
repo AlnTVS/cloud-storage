@@ -5,6 +5,7 @@ import io.netty.buffer.ByteBufAllocator;
 import io.netty.channel.*;
 
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
@@ -25,8 +26,16 @@ public class MyProtoSender {
         buf.writeByte(MyProtoClientHandler.START_BYTE);
         channel.writeAndFlush(buf);
 
+        buf = ByteBufAllocator.DEFAULT.directBuffer(4);
+        buf.writeInt(msg.length());
+        channel.writeAndFlush(buf);
+
         buf = ByteBufAllocator.DEFAULT.directBuffer(msg.length());
-        buf.writeBytes(msg.getBytes());
+        try {
+            buf.writeBytes(msg.getBytes("UTF-8"));
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
         channel.writeAndFlush(buf);
     }
 

@@ -51,38 +51,68 @@ public class MyProtoClientHandler extends ChannelInboundHandlerAdapter {
     private byte[] cmd = new byte[8];
     private String strCmd;
 
-    public Callback callRequestFile;
-    public Callback callRequestFileList;
-    public Callback callRequestAuth;
-    public Callback callSendFileData;
-    public Callback callSendFileList;
-    public Callback callSendAuthReplay;
+
+    private static Callback callRequestFile;
+    private static Callback callRequestFileList;
+    private static Callback callRequestAuth;
+    private static Callback callSendFileData;
+    private static Callback callSendFileList;
+    private static Callback callSendAuthReplay;
+
+    static {
+        Callback empty = args -> {
+        };
+        callRequestFile = empty;
+        callRequestFileList = empty;
+        callRequestAuth = empty;
+        callSendFileData = empty;
+        callSendFileList = empty;
+        callSendAuthReplay = empty;
+    }
+
+    public static void setCallRequestFile(Callback callRequestFile) {
+        MyProtoClientHandler.callRequestFile = callRequestFile;
+    }
+    public static void setCallRequestFileList(Callback callRequestFileList) {
+        MyProtoClientHandler.callRequestFileList = callRequestFileList;
+    }
+    public static void setCallRequestAuth(Callback callRequestAuth) {
+        MyProtoClientHandler.callRequestAuth = callRequestAuth;
+    }
+    public static void setCallSendFileData(Callback callSendFileData) {
+        MyProtoClientHandler.callSendFileData = callSendFileData;
+    }
+    public static void setCallSendFileList(Callback callSendFileList) {
+        MyProtoClientHandler.callSendFileList = callSendFileList;
+    }
+    public static void setCallSendAuthReplay(Callback callSendAuthReplay) {
+        MyProtoClientHandler.callSendAuthReplay = callSendAuthReplay;
+    }
+
 
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
         ByteBuf buf = (ByteBuf) msg;
-        while (true) {
+        while (buf.readableBytes() > 0) {
             if (state == State.IDLE) {
                 if (START_BYTE == buf.readByte()) {
-                    state = State.READ_CMD;
-                }
-            }
-            if (state == State.READ_CMD) {
-                if (buf.readableBytes() >= 8) {
-                    buf.readBytes(cmd);
-                    strCmd = cmd.toString();
                     state = State.POCKET_SIZE;
                 }
-            }
-            if (state == State.POCKET_SIZE) {
+            } else if (state == State.POCKET_SIZE) {
                 if (buf.readableBytes() >= 4) {
                     pocketSize = buf.readInt();
                     state = State.READ_CMD;
                 }
-            }
-            if (state == State.READ_INFO) {
+            } else if (state == State.READ_CMD) {
+                if (buf.readableBytes() >= 8) {
+                    buf.readBytes(cmd);
+                    strCmd = new String(cmd, "UTF-8");
+                    state = State.READ_INFO;
+                    pocketSize -= 8;
+                }
+            } else if (state == State.READ_INFO) {
                 if (buf.readableBytes() >= 0 && readBytes < pocketSize) {
-                    info.append(buf.readByte());
+                    info.append(((char)buf.readByte()));
                     readBytes++;
                 }
                 if (readBytes == pocketSize) {
